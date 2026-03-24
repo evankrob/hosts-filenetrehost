@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --background: #FFFDF7;
+  --foreground: #1a1a1a;
+  --accent: #D97706;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', Georgia, serif;
+}
